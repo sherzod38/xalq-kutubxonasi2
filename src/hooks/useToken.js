@@ -7,4 +7,4 @@ const useToken = (setterOnly) => {
     return setterOnly ? [ctx.setState] : [ctx.state, ctx.setState]
 }
 
-export default 
+export default useToken
